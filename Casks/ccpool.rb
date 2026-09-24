@@ -2,25 +2,25 @@
 cask "ccpool" do
   depends_on macos: :ventura
 
-  version "0.3.1"
+  version "0.4.0"
 
   on_macos do
     on_arm do
-      sha256 "385c7c40b2936286de67fdd1fd5451e10179174b9f3d136fdde8ef73b5455def"
+      sha256 "4043cf8b34ac83dafe9f36846f0441e7450d59506699ce04e35cecfd1ca2b2e4"
       url "https://github.com/SeanLF/ccpool/releases/download/v#{version}/ccpool_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "de9055832d229a2027dcc49f06b7eda8491b0630ef0f2c104d86493d351a42b6"
+      sha256 "3075a6f0318e6c234c9f59c3ed67c28e76d1053b603cfc921d6c3ff252a2794a"
       url "https://github.com/SeanLF/ccpool/releases/download/v#{version}/ccpool_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "81387ec5aed2a74d7f70a1c6a63a41bafbe2becbf1975df599ab8e71548e5ac9"
+      sha256 "86cb57bcd4d678a765dd710a41b8e1010e845a292e2f5d9d2522941bd18578ad"
       url "https://github.com/SeanLF/ccpool/releases/download/v#{version}/ccpool_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "801120ff88e08015ff3dba810856fbc6a9432335d7de8dd57a15864fc9820b84"
+      sha256 "80b56803d66b7709f6701c044f79876ae4f05091c92daad3c17429dffc3d2169"
       url "https://github.com/SeanLF/ccpool/releases/download/v#{version}/ccpool_#{version}_linux_amd64.tar.gz"
     end
   end
